@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         isSinglePlayer = true
         resetBoard()
         currentTurn = Turn.Cross
-        performAIMove()  // AI'nin ilk hamleyi yapması
+        performAIMove()  
     }
     
     @IBAction func multiPlayerButtonTapped(_ sender: UIButton) {
